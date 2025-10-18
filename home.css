@@ -1,0 +1,511 @@
+ Header{
+    display: flex;
+    justify-content: space-between;
+  background-color: #5f5f5f;
+
+    color:white;
+  
+  }
+
+  
+  Header h1{
+    text-transform: uppercase;
+    color:white;
+    padding-left: 50px;
+    margin: 10px;
+
+  }
+    Header nav{ 
+      display: flex;
+      justify-content: space-between;
+    }
+
+    
+    #navvib ul{
+     display: flex;
+     flex-direction: row;
+     margin: 30px;
+         padding-left: 50px;
+        
+
+    
+   }
+  #navvib ul li a{
+    list-style: none;
+    text-decoration: none;
+     color:rgb(246, 241, 241);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-transform: capitalize;
+      padding: 15px 25px; 
+       position:relative ;
+         left: 750px;     
+  }
+    
+ul li a:hover {
+    color: #e78c41 !important;
+    height: auto;
+    width: auto;
+
+}
+
+header .menu button {
+    background-color: #5f5f5f;
+    color: white;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Correctly targets the icon inside the menu button */
+header .menu button i {
+    color: white;
+    background-color: #5f5f5f;
+    border: 0;
+    cursor: pointer;
+    margin: 20px;
+
+}
+
+header .side_menu {
+  width: 300px;
+    background-color: #5f5f5f;
+    position: fixed;
+    top: 0;
+    right: -350px;
+    height: 100%;
+    padding: 50px 30px;
+}
+
+header .side_menu .close {
+    width: 30px;
+    height: 30px;
+    background-color: #5f5f5f;
+    color: rgb(255, 255, 255);
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+header .side_menu ul li:not(:last-child a){
+  border-bottom: 1px solid gray;
+  
+
+}
+ header .side_menu ul li a{
+    text-decoration: none;
+     color:rgb(0, 0, 0);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-transform: capitalize;
+ padding-right: 50px;
+  padding: 15px 25px;  
+  display: block;    
+  }
+
+/* Correctly targets the icon inside the close button */
+header .side_menu .close i {
+    color: white;
+}
+
+   header .side_menu.open{
+    right: 0;
+   }          
+
+
+
+
+
+  .hero_home{
+    background-image: url(../images/unfocused-hall.jpg);
+    background-size: cover;
+background-repeat:no-repeat ;
+height: 100vh;
+
+}
+.box{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 250px;
+    justify-content: space-evenly;
+}
+
+.hero_home h2 {
+
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+             padding-left: 50px;
+             font-size: 50px;
+
+  }
+  
+  .hero_home span {
+   color: #c97f10;
+  }
+  p{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif ;
+  }
+  button{
+    background-color: #5f5f5f;
+    height: 40px;
+    width: 160px;
+    color:white;
+  }
+
+  
+  .the_history{
+     display: flex;
+     
+    
+
+  }
+  .l_div{
+            width: 50%;
+
+/*هذا بقسم السكشن بالنص بالتساوي يعني نص للصورة ونص للكلام */
+  }
+  .l_div img{
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+  }
+  .r_div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 250px;
+    justify-content: space-evenly;
+    background-color: #323232;
+  }
+  .r_div h2{
+
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+             font-size: 20px;
+             color: #fffbfb;
+
+  }
+  
+  .r_div span {
+   color: #c97f10;
+  }
+  
+   .r_div p{
+    color: #fffbfb;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif ;
+  }
+  .r_div button{
+    background-color: #000000;
+    height: 40px;
+    width: 160px;
+    color:white;
+  }
+
+
+  .HI{
+
+      display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+    padding: 0 50px; /* إضافة حشوة داخلية لمنع التصاق العناصر بالحواف */
+
+  }
+   #LOcation{
+ display: flex; /* يجعل العنصر حاوية مرنة (Flexbox) */
+  flex-direction: column; /* يرتب العناصر الأبناء (الأيقونة، h3، p) عموديًا، فوق بعضها البعض */
+  align-items: center; /* يوسّط العناصر أفقيًا داخل الحاوية */
+  text-align: center; /* يوسّط أي نص داخل الحاوية */
+  color: rgb(0, 0, 0); /* يُطبق لون النص على جميع العناصر النصية بداخلها */
+  padding: 20px; /* يُضيف حشوة داخلية (padding) بمقدار 20 بكسل من كل الجهات */
+    margin: 0px 100px;
+    
+
+
+ }
+ i {
+  font-size: 40px; /* يُحدد حجم الأيقونة */
+  margin-bottom: 10px; /* يُضيف مسافة أسفل الأيقونة */
+}
+
+  #LOcatio h3 {
+  font-size: 24px; /* حجم خط مناسب */
+  
+
+  }
+  #LOcatio p{
+  font-size: 16px;/*ط مناسب */
+  }
+  
+ #mails{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+color: rgb(0, 0, 0);
+  padding: 20px;
+ }
+ i {
+  font-size: 40px;
+  margin-bottom: 10px; 
+}
+
+ 
+ #jem{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 0px 200px;
+ }
+
+ i {
+  font-size: 40px;
+  margin-bottom: 10px; 
+}
+footer{
+    background-color: #1e2124;
+  text-align: center;
+  color: white; /* لون النص الأبيض */
+  padding: 40px 20px; /* مسافة داخلية من الأعلى والأسفل */
+  display: flex; /* تفعيل Flexbox لترتيب العناصر */
+  justify-content: space-around; /* توزيع العناصر بمسافات متساوية */
+  align-items: center; /* توسيط العناصر عموديًا */
+  text-align: center; /* توسيط النص داخل كل عنصر */
+margin: 0 0;
+}
+/* ======================================================== */
+/* === أنماط إعادة تعيين المتصفح (مهمة للتجاوبية) === */
+/* ======================================================== */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* ======================================================== */
+/* === أنماط الهيدر (المُعدلة لتجنب التداخل مع Bootstrap) === */
+/* ======================================================== */
+/* هذه الأنماط مأخوذة من كودك القديم، ويجب دمجها مع أنماط Bootstrap */
+header {
+    background-color: #5f5f5f;
+    color: white;
+}
+header h1 {
+    text-transform: uppercase;
+    color: white;
+    padding-left: 50px;
+    margin: 10px;
+}
+/* تم حذف باقي أنماط الهيدر التي تتعارض مع Bootstrap */
+
+
+/* ======================================================== */
+/* === أنماط المكونات الرئيسية في الصفحة (Home) === */
+/* ======================================================== */
+.hero_home{
+    background-image: url(../images/unfocused-hall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px;
+    justify-content: space-evenly;
+    text-align: center; /* توسيط النص */
+    color: white; /* إضافة لون نص لتظهر على الخلفية */
+}
+
+.hero_home h2 {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.hero_home span {
+    color: #c97f10;
+}
+p{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif ;
+    margin-bottom: 20px;
+}
+button{
+    background-color: #5f5f5f;
+    height: 40px;
+    width: 160px;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+/* === قسم التاريخ (The History) === */
+.the_history{
+    display: flex;
+}
+.l_div{
+    width: 50%;
+}
+.l_div img{
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+    display: block; /* مهم لإزالة المسافة تحت الصورة */
+}
+.r_div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* تغيير إلى center للتوسيط الرأسي */
+    align-items: center;
+    padding: 50px; /* تقليل الحشوة */
+    text-align: center;
+    background-color: #323232;
+}
+.r_div h2{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px; /* تكبير الخط قليلًا */
+    color: #fffbfb;
+    margin-bottom: 15px;
+}
+.r_div span {
+    color: #c97f10;
+}
+.r_div p{
+    color: #fffbfb;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+.r_div button{
+    background-color: #000000;
+}
+
+/* === قسم الميزات (HI) === */
+.HI {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* توزيع العناصر بمسافات متساوية */
+    align-items: center;
+    padding: 40px 20px; /* زيادة الحشوة الرأسية */
+    margin: 0;
+    text-align: center;
+}
+.HI > div {
+    /* العناصر الداخلية مثل #LOcation, #mails, #jem */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #000;
+}
+
+/* تصحيح الهوامش على الأطراف */
+#LOcation { margin: 0; }
+#mails { margin: 0; }
+#jem { margin: 0; }
+
+
+.HI i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.HI h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.HI p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* === الفوتر === */
+footer{
+    background-color: #1e2124;
+    text-align: center;
+    color: white;
+    padding: 20px 0; /* تقليل الـ padding ليصبح الفوتر أصغر */
+    margin: 0; /* ضمان عدم وجود مسافة بيضاء تحته */
+    width: 100%;
+}
+
+/* ======================================================== */
+/* === التجاوبية (Media Queries) === */
+/* ======================================================== */
+
+/* شاشات الأجهزة اللوحية (Tablet) - أقل من 992 بكسل (مثل iPad الرأسي) */
+@media (max-width: 992px) {
+    /* قسم التاريخ (The History) - تكديس عمودي */
+    .the_history {
+        flex-direction: column;
+    }
+    .l_div, .r_div {
+        width: 100%; /* جعل القسمين يملآن العرض بالكامل */
+    }
+    .r_div {
+        padding: 50px 20px; /* تقليل الحشوة الداخلية */
+    }
+    
+    /* قسم الميزات (HI) - تكديس على سطرين أو ثلاثة */
+    .HI {
+        flex-wrap: wrap; /* السماح للعناصر بالنزول إلى سطر جديد */
+        justify-content: center;
+    }
+    .HI > div {
+        width: 45%; /* عنصرين في السطر تقريبًا */
+        margin-bottom: 20px;
+    }
+    #jem { /* لإجباره على النزول على سطر جديد */
+        width: 90%;
+    }
+
+    /* قسم الهيرو (Hero) */
+    .box {
+        padding: 150px 20px;
+    }
+    .hero_home h2 {
+        font-size: 40px;
+    }
+}
+
+/* شاشات الجوالات العادية (Mobile) - أقل من 576 بكسل */
+@media (max-width: 576px) {
+    /* قسم الهيرو (Hero) */
+    .box {
+        padding: 100px 10px;
+    }
+    .hero_home h2 {
+        font-size: 30px;
+    }
+
+    /* قسم التاريخ (The History) */
+    .r_div h2 {
+        font-size: 24px;
+    }
+
+    /* قسم الميزات (HI) - عنصر واحد في السطر */
+    .HI {
+        flex-direction: column;
+    }
+    .HI > div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #jem {
+        width: 100%;
+    }
+}
